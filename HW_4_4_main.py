@@ -14,7 +14,8 @@ def change_contact(args,contacts):
     return "Contact updated."
 
 def show_phone(args, contacts):
-    phone = contacts[args]
+    name = args[0]
+    phone = contacts[name]
     return phone
 
 def show_all(phone_book):
